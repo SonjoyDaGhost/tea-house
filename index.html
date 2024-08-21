@@ -34,9 +34,9 @@
 
 <body>
     <!-- main container -->
-    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+    <main class="max-w-screen-xl sm:w-full mx-auto px-16 lg:px-28">
         <!-- header section  -->
-        <header class="md:flex pt-10 mb-20">
+        <header class="lg:flex pt-10 mb-20">
             <!-- Text content  -->
             <div class="space-y-8">
                 <h1 class="text-5xl md:text-7xl  font-extrabold text-[#1C1C1C]">It's good <br>
@@ -47,30 +47,78 @@
                     Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
                 </p>
                 <br>
-                <button class=" text-white font-bold rounded-xl p-5 bg-gradient-to-r from-[#FF8938]  to-[#FF0000]">Explore More
-                     <i class="fa-solid fa-arrow-right rotate-[315deg]"></i>
+                <button
+                    class=" text-white font-bold rounded-xl p-5 bg-gradient-to-r from-[#FF8938]  to-[#FF0000]">Explore
+                    More
+                    <i class="fa-solid fa-arrow-right rotate-[315deg]"></i>
                 </button>
             </div>
             <!-- Img content -->
             <div class="relative">
                 <!-- Image -->
-                 <div>
+                <div>
                     <img class="w-full" src="images/banner.png" alt="">
-                 </div>
+                </div>
                 <!-- Card -->
-                 <div class="flex items-center shadow-lg px-2 py-2 md:px-10 md:py-4 rounded-md absolute top-30 left-12 md:top-60  lg:top-80 lg:left-20 md:left-10 text bg-white">
+                <div
+                    class="flex items-center shadow-lg px-2 py-2 md:px-10 md:py-4 rounded-md absolute top-30 left-12 md:top-60  lg:top-80 lg:left-20 md:left-10 text bg-white">
                     <!-- icon-->
-                     <div>
+                    <div>
                         <i class="fa-solid fa-star text-amber-400 text-2xl"></i>
-                     </div>
+                    </div>
                     <!-- text  -->
-                     <div class="ml-3">
+                    <div class="ml-3">
                         <h2 class="lg:text-2xl md:text-xl text-lg font-bold">5.00</h2>
                         <p class="text-gray-500">Trust Pilot Ratings</p>
-                     </div>
-                 </div>
+                    </div>
+                </div>
             </div>
         </header>
+        <!-- product section  -->
+        <div class="mx-8 md:mx-14">
+            <!-- section heading -->
+            <div class="text-center px-5 lg:px-20 mb-8">
+                <h1 class="font-bold text-4xl md: text-6xl mb-4">Our Featured Products</h1>
+                <p class="max-w-xl mx-auto text-gray-500">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                    words which don't look even slightly believable. </p>
+            </div>
+            <!-- product container  -->
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-col-1 gap-5">
+                <!-- product card  -->
+                <div class="text-center bg-[#F4F4F400] shadow-lg pt-7 rounded-xl">
+                    <img class="w-full px-14" src="images/tea-1.png" alt="">
+                    <div class="font-bold p-8">
+                        <h2 class="text-2xl">Milk Tea</h2>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- product card  -->
+                <div class="text-center bg-[#F4F4F400] shadow-lg pt-7 rounded-xl">
+                    <img class="w-full px-14" src="images/tea-3.png" alt="">
+                    <div class="font-bold p-8">
+                        <h2 class="text-2xl">Black Tea</h2>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- product card  -->
+                <div class="text-center bg-[#F4F4F400] shadow-lg pt-7 rounded-xl">
+                    <img class="w-full px-14" src="images/tea-2.png" alt="">
+                    <div class="font-bold p-8">
+                        <h2 class="text-2xl">Lemon Tea</h2>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- product card  -->
+                <div class="text-center bg-[#F4F4F400] shadow-lg pt-7 rounded-xl">
+                    <img class="w-full px-14" src="images/tea-4.png" alt="">
+                    <div class="font-bold p-8">
+                        <h2 class="text-2xl">Green Tea</h2>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 </body>
