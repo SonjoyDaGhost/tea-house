@@ -10,11 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <style>
-        
-
         .manrope-font {
             font-family: "Manrope", sans-serif;
-            
+
         }
     </style>
     <!-- font awesome -->
@@ -23,19 +21,58 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 </head>
 
 <body>
+    <!-- main container -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <!-- header section  -->
+        <header class="md:flex pt-10 mb-20">
+            <!-- Text content  -->
+            <div class="space-y-8">
+                <h1 class="text-5xl md:text-7xl  font-extrabold text-[#1C1C1C]">It's good <br>
+                    tea time at The
+                    <br> Tea House
+                </h1>
+                <p class="text-[#777777] w-3/4 text-lg">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                <br>
+                <button class=" text-white font-bold rounded-xl p-5 bg-gradient-to-r from-[#FF8938]  to-[#FF0000]">Explore More
+                     <i class="fa-solid fa-arrow-right rotate-[315deg]"></i>
+                </button>
+            </div>
+            <!-- Img content -->
+            <div class="relative">
+                <!-- Image -->
+                 <div>
+                    <img class="w-full" src="images/banner.png" alt="">
+                 </div>
+                <!-- Card -->
+                 <div class="flex items-center shadow-lg px-2 py-2 md:px-10 md:py-4 rounded-md absolute top-30 left-12 md:top-60  lg:top-80 lg:left-20 md:left-10 text bg-white">
+                    <!-- icon-->
+                     <div>
+                        <i class="fa-solid fa-star text-amber-400 text-2xl"></i>
+                     </div>
+                    <!-- text  -->
+                     <div class="ml-3">
+                        <h2 class="lg:text-2xl md:text-xl text-lg font-bold">5.00</h2>
+                        <p class="text-gray-500">Trust Pilot Ratings</p>
+                     </div>
+                 </div>
+            </div>
+        </header>
 
+    </main>
 </body>
 
 </html>
